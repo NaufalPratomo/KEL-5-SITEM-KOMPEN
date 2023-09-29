@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sistem_kompen {
-    public static void main (String [] hady){
+    public static void main (String [] args){
         Scanner input = new Scanner (System.in);
         
         String nama , nim ;
