@@ -32,7 +32,7 @@ public class sistem_kompen {
                     if (kompen_s1 > 0 && kompen_s2 > 0 && kompen_s3 > 0 && kompen_s4 > 0 && kompen_s5 > 0 && kompen_s6 > 0 && kompen_s7 > 0 && kompen_s8 > 0) {
                         System.out.println(kompen_s1 + kompen_s2 + kompen_s3 + kompen_s4 + kompen_s5 + kompen_s6 + kompen_s7 + kompen_s8 * 2);
                     } else {
-                        System.out.println(kompen_s1 + kompen_s2 + kompen_s3 + kompen_s4 + kompen_s5 + kompen_s6 + kompen_s7 + kompen_s8 * 0);
+                        System.out.println(kompen_s1 + kompen_s2 + kompen_s3 + kompen_s4 + kompen_s5 + kompen_s6 + kompen_s7 + kompen_s8);
                     }
 
                     kompen_s1 = kompen_s1 * 2;
