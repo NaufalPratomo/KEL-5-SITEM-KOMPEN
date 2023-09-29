@@ -1,25 +1,45 @@
 import java.util.Scanner;
 
-public class sistem_kompen {
+public class kompen_beta {
     public static void main (String [] hady){
-
+        Scanner input = new Scanner (System.in);
+        
         String nama , nim ;
-        final double kompen_s1 , kompen_s2, poin_akhir;
+        double kompen_s1 , kompen_s2, kompen_s3, kompen_s4, kompen_s5, kompen_s6, kompen_s7, kompen_s8, poin_akhir;
 
-        try (Scanner input = new Scanner (System.in)) {
             System.out.println("===== Menghitung Nilai Kompen Mahasiswa=====\n");
                     System.out.print("Masukan nama : ");
                     nama = input.nextLine();
                     System.out.print("Masukan NIM : ");
                     nim = input.nextLine();
                     System.out.print("Kompen Semester 1 : ");
-                    kompen_s1 = input.nextInt();
+                    kompen_s1 = input.nextDouble();
                     System.out.print("Kompen semester 2 : ");
-                    kompen_s2 = input.nextInt();
-        }
+                    kompen_s2 = input.nextDouble();
+                    System.out.print("Kompen semester 3 : ");
+                    kompen_s3 = input.nextDouble();
+                    System.out.print("Kompen semester 4 : ");
+                    kompen_s4 = input.nextDouble();
+                    System.out.print("Kompen semester 5 : ");
+                    kompen_s5 = input.nextDouble();
+                    System.out.print("Kompen semester 6 : ");
+                    kompen_s6 = input.nextDouble();
+                    System.out.print("Kompen semester 7 : ");
+                    kompen_s7 = input.nextDouble();
+                    System.out.print("Kompen semester 8 : ");
+                    kompen_s8 = input.nextDouble();
 
-  poin_akhir = (4 * kompen_s1 + 2 * kompen_s2);
+        kompen_s1 = kompen_s1 * 2;
+        kompen_s2 = kompen_s2 * 2;
+        kompen_s3 = kompen_s3 * 2;
+        kompen_s4 = kompen_s4 * 2;
+        kompen_s5 = kompen_s5 * 2;
+        kompen_s6 = kompen_s6 * 2;
+        kompen_s7 = kompen_s7 * 2;
+        kompen_s8 = kompen_s8 * 2;
 
-        System.out.println(nama+" dengan NIM "+nim+" memiliki nilai kompen akhir "+poin_akhir);
+        poin_akhir = (kompen_s1 + kompen_s2 + kompen_s3 + kompen_s4 + kompen_s5 + kompen_s6 + kompen_s7 + kompen_s8) * 2;
+
+        System.out.println(nama+" dengan NIM "+nim+" memiliki nilai kompen akhir " + poin_akhir);
     }
 }
