@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class kompen_beta {
+public class sistem_kompen {
     public static void main (String [] hady){
         Scanner input = new Scanner (System.in);
         
