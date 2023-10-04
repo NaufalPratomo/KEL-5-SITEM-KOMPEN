@@ -46,12 +46,15 @@ public class kompencoba {
         switch (semester) {
             case "1":
                 System.out.println("Anda memilih semester 1.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
                 poin_akhir = kompen_s1 * 2;
                 break;
             case "2":
                 System.out.println("Anda memilih semester 2.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0)) {
                     poin_akhir = kompen_s1 * 2 + kompen_s2 * 2;
@@ -61,8 +64,11 @@ public class kompencoba {
                 break;
             case "3":
                 System.out.println("Anda memilih semester 3.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0)) {
                     poin_akhir = kompen_s1 * 2 + kompen_s2 * 2 + kompen_s3 * 2;
@@ -72,9 +78,13 @@ public class kompencoba {
                 break;
             case "4":
                 System.out.println("Anda memilih semester 4.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 4 : ");
                 kompen_s4 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0) || (kompen_s4 > 0)) {
                     poin_akhir = kompen_s1 * 2 + kompen_s2 * 2 + kompen_s3 * 2 + kompen_s4 * 2;
@@ -84,10 +94,15 @@ public class kompencoba {
                 break;
             case "5":
                 System.out.println("Anda memilih semester 5.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 4 : ");
                 kompen_s4 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 5 : ");
                 kompen_s5 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0) || (kompen_s4 > 0) || (kompen_s5 > 0)) {
                     poin_akhir = kompen_s1 * 2 + kompen_s2 * 2 + kompen_s3 * 2 + kompen_s4 * 2 + kompen_s5 * 2;
@@ -97,11 +112,17 @@ public class kompencoba {
                 break;
             case "6":
                 System.out.println("Anda memilih semester 6.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 4 : ");
                 kompen_s4 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 5 : ");
                 kompen_s5 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 6 : ");
                 kompen_s6 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0) || (kompen_s4 > 0) || (kompen_s5 > 0)
                         || (kompen_s6 > 0)) {
@@ -113,12 +134,19 @@ public class kompencoba {
                 break;
             case "7":
                 System.out.println("Anda memilih semester 7.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 4 : ");
                 kompen_s4 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 5 : ");
                 kompen_s5 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 6 : ");
                 kompen_s6 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 7 : ");
                 kompen_s7 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0) || (kompen_s4 > 0) || (kompen_s5 > 0)
                         || (kompen_s6 > 0) || (kompen_s7 > 0)) {
@@ -129,14 +157,22 @@ public class kompencoba {
                 }
                 break;
             case "8":
-                System.out.println("Anda memilih semester 8.");
+                System.out.print("Anda memilih semester 8.");
+                System.out.print("Masukkan Kompe Semester 1 : ");
                 kompen_s1 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 2 : ");
                 kompen_s2 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 3 : ");
                 kompen_s3 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 4 : ");
                 kompen_s4 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 5 : ");
                 kompen_s5 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 6 : ");
                 kompen_s6 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 7 : ");
                 kompen_s7 = input.nextDouble() * 2;
+                System.out.print("Masukkan Kompe Semester 8 : ");
                 kompen_s8 = input.nextDouble() * 2;
                 if ((kompen_s1 > 0) || (kompen_s2 > 0) || (kompen_s3 > 0) || (kompen_s4 > 0) || (kompen_s5 > 0)
                         || (kompen_s6 > 0) || (kompen_s7 > 0) || (kompen_s8 > 0)) {
@@ -147,10 +183,10 @@ public class kompencoba {
                             + kompen_s8;
                 }
                 break;
-
-                // Hasil akhir
-                System.out.println(nama + " dengan NIM " + nimMhs + " kelas " + kelas + " semester " + semester
-                        + " memiliki nilai kompen akhir " + poin_akhir);
         }
+
+        // Hasil akhir
+        System.out.println(nama + " dengan NIM " + nimMhs + " kelas " + kelas + " semester " + semester
+                + " memiliki nilai kompen akhir " + poin_akhir);
     }
 }
