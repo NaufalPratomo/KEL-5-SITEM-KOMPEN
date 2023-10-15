@@ -19,7 +19,7 @@ public class kompencoba {
         System.out.print("Masukkan Password: ");
         String enteredPassword = input.nextLine();
 
-        // if else nim and pass
+        // nested if else nim and pass
         if (nimMhs.equals(passMhs)) {
             if (enteredPassword.equals(passMhs)) {
                 System.out.println("Login berhasil");
