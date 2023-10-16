@@ -6,7 +6,7 @@ public class kompenPresentasi {
 
         // Deklarasi
         String nimMhs;
-        String passMhs = "1";
+        String passMhs;
         String nama, kelas, semester;
         double kompen_s1 = 0, kompen_s2 = 0, kompen_s3 = 0, kompen_s4 = 0, kompen_s5 = 0, kompen_s6 = 0, kompen_s7 = 0,
         kompen_s8 = 0, poin_akhir = 0;
