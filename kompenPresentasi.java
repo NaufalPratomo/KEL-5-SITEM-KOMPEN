@@ -179,8 +179,5 @@ public class kompenPresentasi {
         // Hasil akhir
         System.out.println(nama + " dengan NIM " + nimMhs + " kelas " + kelas + " semester " + semester
                 + " memiliki nilai kompen akhir " + poin_akhir);
-
-        // Close the Scanner
-        input.close();
     }
 }
