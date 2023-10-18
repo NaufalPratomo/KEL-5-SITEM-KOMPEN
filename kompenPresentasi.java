@@ -30,7 +30,8 @@ public class kompenPresentasi {
         kelas = input.nextLine();
 
         // input semester
-        System.out.print("Masukkan Semster : ");
+        
+        System.out.print("Masukkan Semester : ");
         semester = input.nextLine();
 
         // switch case dan input per-semester
@@ -38,7 +39,7 @@ public class kompenPresentasi {
             case "1":
                 System.out.println("Anda memilih semester 1.");
                 System.out.print("Masukkan Kompen Semester 1 : ");
-                kompen_s1 = input.nextDouble() * 2;
+                kompen_s1 = input.nextDouble();
                 poin_akhir = kompen_s1 * 2;
                 break;
             case "2":
