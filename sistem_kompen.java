@@ -11,7 +11,7 @@ public class sistem_kompen {
         double kompen_s1 = 0, kompen_s2 = 0, kompen_s3 = 0, kompen_s4 = 0, kompen_s5 = 0, kompen_s6 = 0, kompen_s7 = 0,
         kompen_s8 = 0, poin_akhir = 0;
 
-        // Input NIM dan Password
+        // Input NIM dan Password(Login)
         System.out.println("===== Menghitung Nilai Kompen Mahasiswa =====\n");
         do {
             System.out.print("Masukkan NIM : ");
