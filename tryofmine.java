@@ -6,8 +6,9 @@ public class tryofmine {
 
         // Deklarasi
         String nimMhs;
-        String passMhs = "1";
-        String nama, kelas, semester;
+        String passMhs = "";
+        String nama, kelas;
+        int semester;
         double poin_akhir = 0;
 
         // Input NIM dan Password
@@ -30,19 +31,19 @@ public class tryofmine {
 
         // Input semester
         System.out.print("Masukkan Semester (1-8): ");
-        semester = input.nextLine();
+        semester = input.nextInt();
 
         // Input kompen sesuai semester
-        double kompenSum = 0;
+        double kompenSemester = 0;
 
-        for (int i = 1; i <= Integer.parseInt(semester); i++) {
+        for (int i = 1; i <= semester; i++) {
             System.out.println("Anda memilih semester " + i + ".");
             System.out.print("Masukkan Kompen Semester " + i + " : ");
             double kompen = input.nextDouble() * 4;
-            kompenSum += kompen;
+            kompenSemester += kompen;
         }
 
-        poin_akhir = kompenSum;
+        poin_akhir = kompenSemester;
 
         // Hasil akhir
         System.out.println(nama + " dengan NIM " + nimMhs + " kelas " + kelas + " semester " + semester
