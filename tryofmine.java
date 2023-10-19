@@ -36,22 +36,26 @@ public class tryofmine {
         nama = input.nextLine();
         System.out.print("Masukkan Kelas : ");
         kelas = input.nextLine();
+        clearScreen();
 
         // Menu
         Boolean sistemKompen = true;
         int menu;
         do {
-            System.out.println("\nMain Menu [" + nama + "]: ");
-            System.out.println("1. Penghitungan kompen: \n0. Keluar Program");
+            System.out.println("\nList Menu [" + nama + "]: ");
+            System.out.println("0. Keluar Program ");
+            System.out.println("1. Perhitungan Kompen Mahasiswa: ");
             System.out.print("\n Pilih menu: ");
             menu = input.nextInt();
             input.nextLine();
+            clearScreen();
             switch (menu) {
                 case 0:
                     sistemKompen = false;
                     break;
                 case 1:
                     // Input semester(pilih semester)
+                    System.out.print("Perhitungan Kompen Mahasiswa");
                     System.out.print("Masukkan Semester (1-8): ");
                     semester = input.nextInt();
 
@@ -73,7 +77,7 @@ public class tryofmine {
 
             }
         } while (sistemKompen);
-        System.out.println("\n\nProgram Selesai");
+        System.out.println("\n\nTerimakasih :D");
 
         // Close the Scanner
         input.close();
