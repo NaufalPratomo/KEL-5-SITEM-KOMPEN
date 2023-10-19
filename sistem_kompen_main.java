@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sistem_kompen {
+public class sistem_kompen_main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
