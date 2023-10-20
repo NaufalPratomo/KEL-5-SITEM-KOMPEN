@@ -29,14 +29,14 @@ public class tryofmine {
                 System.out.println("NIM atau Password salah. Coba lagi.");
             }
         } while (!nimMhs.equals(passMhs));
-        clearScreen();
+        clearScreen();//clear screen
 
         // Input data mahasiswa
         System.out.print("Masukkan Nama : ");
         nama = input.nextLine();
         System.out.print("Masukkan Kelas : ");
         kelas = input.nextLine();
-        clearScreen();
+        clearScreen();//clear screen
 
         // Menu
         Boolean sistemKompen = true;
@@ -48,7 +48,7 @@ public class tryofmine {
             System.out.print("\n Pilih menu: ");
             menu = input.nextInt();
             input.nextLine();
-            clearScreen();
+            clearScreen();//clear screen
             switch (menu) {
                 case 0:
                     sistemKompen = false;
