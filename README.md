@@ -25,6 +25,8 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 - Menu (On Progress)
 - setiap memasukkan nilai kompen, ditanya sudah dilakukan di semester brp (agar bisa di pastikan apakah kompen yang didapatkan sudah dikerjakan).(To do)
 
+
+
 ---
 
 
@@ -39,4 +41,4 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 
 
 # Use
-[![My Skills](https://skillicons.dev/icons?i=java,vscode,git,trello)]()
+[![My Skills](https://skillicons.dev/icons?i=java,vscode,git)]()
