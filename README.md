@@ -39,4 +39,4 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 
 
 # Use
-[![My Skills](https://skillicons.dev/icons?i=java,vscode,git,app.diagrams)]()
+[![My Skills](https://skillicons.dev/icons?i=java,vscode,git,trello)]()
