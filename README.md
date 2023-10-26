@@ -4,7 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Type-Sistem%20Informasi-13e600) ![Static Badge](https://img.shields.io/badge/-Assignment-red) ![Static Badge](https://img.shields.io/badge/Total%20Team-4%20-4a92f0)
 
-### Halo👋
+### HELLOWWWW GUYSSS 🤩
 
 Bahasa : Indonesia
 
