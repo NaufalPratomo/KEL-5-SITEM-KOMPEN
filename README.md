@@ -11,7 +11,7 @@ Bahasa : Indonesia
 ---
 
 ### Deskripsi:
-<p align="left"><img src="https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595830.jpg?w=1380&t=st=1698330616~exp=1698331216~hmac=776e91146db23391647d5541919625c83df5cde5cf053c27e2563dfdf896ac0f" width="240"></p>
+<p align="left"><img src="https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595830.jpg?w=1380&t=st=1698330616~exp=1698331216~hmac=776e91146db23391647d5541919625c83df5cde5cf053c27e2563dfdf896ac0f" width="720"></p>
 Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 
 ---
@@ -39,4 +39,4 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 
 
 # Use
-[![My Skills](https://skillicons.dev/icons?i=java,vscode,git,diagrams)]()
+[![My Skills](https://skillicons.dev/icons?i=java,vscode,git,app.diagrams)]()
