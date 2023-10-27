@@ -17,7 +17,36 @@ public class sistem_kompen_main {
         String nama, kelas, semester;
         double kompen_s1 = 0, kompen_s2 = 0, kompen_s3 = 0, kompen_s4 = 0, kompen_s5 = 0, kompen_s6 = 0, kompen_s7 = 0,
         kompen_s8 = 0, poin_akhir = 0;
+// Array for login data (NIM and password)
+        String[] loginData = {
+            "2341720075", "1", 
+            "2341720212", "1", 
+            "2341720218", "1", 
+            "2341720016", "1"
+        };
 
+        System.out.println("===== Menghitung Nilai Kompen Mahasiswa =====\n");
+        
+        boolean loginSukses = false;
+        while (!loginSukses) {
+            System.out.print("Masukkan NIM: ");
+            nimMhs = input.nextLine();
+            System.out.print("Masukkan Password: ");
+            passMhs = input.nextLine();
+            
+            boolean found = false;
+            for (int i = 0; i < loginData.length; i += 2) {
+                if (nimMhs.equals(loginData[i]) && passMhs.equals(loginData[i + 1])) {
+                    found = true;
+                    loginSukses = true;
+                    break;
+                }
+            }
+            
+            if (!found) {
+                System.out.println("NIM atau Password salah. Coba lagi.");
+            }
+        }
         // Input NIM dan Password(Login)
         System.out.println("===== Menghitung Nilai Kompen Mahasiswa =====\n");
         do {
