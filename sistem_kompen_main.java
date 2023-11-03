@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sistem_kompen_main {
+public class sistem_kompen_main{
 
     // Clear the screen
     public static void clearScreen() {
@@ -95,6 +95,22 @@ public class sistem_kompen_main {
                     // Hasil akhir
                     System.out.println(nama + " kelas " + kelas + " semester " + semester
                         + " memiliki nilai kompen akhir " + poin_akhir);
+                case 2:
+                    //List Kompen Setiap Mahasiswa Pada Kelas yang Diinputkan
+                    String[][] kompenMhs = {
+                        {"Nama", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"},
+                        {"Nopal", "2", "1", "3"},
+                        {"Faishal", "2", "1", "3"},
+                        {"Dhanisa", "2", "1", "3"},
+                        {"Valen", "2", "1", "3"},
+                    };
+                    // Cetak array 2D ke dalam format tabel
+                    for (int i = 0; i < kompenMhs.length; i++) {
+                        for (int j = 0; j < kompenMhs[i].length; j++) {
+                            System.out.print(kompenMhs[i][j] + "\t");
+                        }
+                        System.out.println();
+                    }
                 }
 
 
