@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class sistem_kompen_main{
+public class sistem_kompen_main {
 
     // Clear the screen
+    
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
@@ -27,8 +28,14 @@ public class sistem_kompen_main{
             "1", "1"
         };
 
-        System.out.println("===== Menghitung Nilai Kompen Mahasiswa =====\n");
-        
+       
+          clearScreen();
+         
+         System.out.println("╔════════════════════════════════════════════╗");
+         System.out.println("║          Menghitung Nilai Kompen           ║");
+         System.out.println("╚════════════════════════════════════════════╝");
+
+
         boolean loginSukses = false;
         while (!loginSukses) {
             System.out.print("Masukkan NIM: ");
@@ -52,6 +59,11 @@ public class sistem_kompen_main{
         clearScreen(); // Clear the screen
 
         // Input student data
+        System.out.println("╔════════════════════════════════════════════╗");
+        System.out.println("║          Menginput Nama Mahasiswa          ║");
+        System.out.println("╚════════════════════════════════════════════╝");
+        System.out.println("               ");
+        System.out.println("               ");
         System.out.print("Masukkan Nama: ");
         nama = input.nextLine();
         System.out.print("Masukkan Kelas: ");
@@ -62,11 +74,16 @@ public class sistem_kompen_main{
         boolean sistemKompen = true;
         int menu;
         do {
-            System.out.println("\nSelamat datang " + nama + ", Silahkan pilih menu: ");
+            System.out.println("╔════════════════════════════════════════════╗");
+            System.out.println(  "║        Selamat datang "+ nama +"            ║");
+            System.out.println("║          Silahkan Pilih Menu :             ║");
+            System.out.println("╚════════════════════════════════════════════╝");
+            // System.out.println("\nSelamat datang " + nama + ", Silahkan pilih menu: ");
             System.out.println("0. Keluar Program");
             System.out.println("1. Perhitungan Kompen Mahasiswa");
             System.out.println("2. List Kompen Pada Kelas "+ kelas);
             System.out.print("\nPilih menu: ");
+            
             menu = input.nextInt();
             input.nextLine();
             clearScreen(); // Clear the screen
@@ -76,8 +93,10 @@ public class sistem_kompen_main{
                     break;
                 case 1:
                     // Input semester (pilih semester)
-                    System.out.print("Perhitungan Kompen Mahasiswa");
-                    System.out.print("Masukkan Semester (1-8): ");
+                    System.out.println("╔════════════════════════════════════════════╗");
+                    System.out.println("║       Perhitungan Kompen Mahasiswa         ║");
+                    System.out.println("╚════════════════════════════════════════════╝");
+                     System.out.print("Masukkan Semester (1-8): ");
                     semester = input.nextInt();
 
                     // Input kompen sesuai semester
@@ -118,6 +137,6 @@ public class sistem_kompen_main{
         System.out.println("\n\nTerima kasih :D");
 
         // Close the Scanner
-        input.close();
+         input.close();
     }
 }
