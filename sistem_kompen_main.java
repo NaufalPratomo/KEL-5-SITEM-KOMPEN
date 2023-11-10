@@ -119,5 +119,6 @@ public class sitem_kompen_main {
 
         // Close the Scanner
         input.close();
+
     }
 }
