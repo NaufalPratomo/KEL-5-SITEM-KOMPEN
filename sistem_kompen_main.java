@@ -17,6 +17,11 @@ public class sitem_kompen_main {
         String nama, kelas;
         int semester;
         double poin_akhir = 0;
+      
+      // Decoration
+         System.out.println("╔════════════════════════════════════════════╗");
+         System.out.println("║          Menghitung Nilai Kompen           ║");
+         System.out.println("╚════════════════════════════════════════════╝");
 
         // Array for login data (NIM and password)
         String[] loginData = {
@@ -52,6 +57,11 @@ public class sitem_kompen_main {
         clearScreen(); // Clear the screen
 
         // Input student data
+        System.out.println("╔════════════════════════════════════════════╗");
+        System.out.println("║          Menginput Nama Mahasiswa          ║");
+        System.out.println("╚════════════════════════════════════════════╝");
+        System.out.println("               ");
+        System.out.println("               ");
         System.out.print("Masukkan Nama: ");
         nama = input.nextLine();
         System.out.print("Masukkan Kelas: ");
@@ -62,7 +72,10 @@ public class sitem_kompen_main {
         boolean sistemKompen = true;
         int menu;
         do {
-            System.out.println("\nSelamat datang " + nama + ", Silahkan pilih menu: ");
+            System.out.println("╔════════════════════════════════════════════╗");
+            System.out.println("║        Selamat datang "+ nama +"           ║");
+            System.out.println("║          Silahkan Pilih Menu :             ║");
+            System.out.println("╚════════════════════════════════════════════╝");
             System.out.println("0. Keluar Program");
             System.out.println("1. Perhitungan Kompen Mahasiswa");
             System.out.println("2. List Kompen Pada Kelas "+ kelas);
@@ -76,6 +89,10 @@ public class sitem_kompen_main {
                     break;
                 case 1:
                     // Input semester (pilih semester)
+                    System.out.println("╔════════════════════════════════════════════╗");
+                    System.out.println("║       Perhitungan Kompen Mahasiswa         ║");
+                    System.out.println("╚════════════════════════════════════════════╝");
+                    System.out.print("Masukkan Semester (1-8): ");
                     System.out.print("Perhitungan Kompen Mahasiswa");
                     System.out.print("Masukkan Semester (1-8): ");
                     semester = input.nextInt();
@@ -118,7 +135,6 @@ public class sitem_kompen_main {
         System.out.println("\n\nTerima kasih :D");
 
         // Close the Scanner
-        input.close();
+    }
 
-    }
 }
