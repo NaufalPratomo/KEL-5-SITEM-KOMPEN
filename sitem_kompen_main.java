@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sistem_kompen_main {
+public class sitem_kompen_main {
 
     // Clear the screen
     public static void clearScreen() {
