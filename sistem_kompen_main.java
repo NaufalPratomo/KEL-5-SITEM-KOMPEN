@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sistem_kompen_main{
+public class sistem_kompen_main {
 
     // Clear the screen
     public static void clearScreen() {
@@ -11,14 +11,14 @@ public class sistem_kompen_main{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Declaration
+        // Deklarasi
         String nimMhs;
         String passMhs;
         String nama, kelas;
         int semester;
         double poin_akhir = 0;
 
-        // Array for login data (NIM and password)
+        // Array login data (NIM dan password)
         String[] loginData = {
             "2341720075", "1", 
             "2341720212", "1", 
@@ -51,7 +51,7 @@ public class sistem_kompen_main{
         }
         clearScreen(); // Clear the screen
 
-        // Input student data
+        // Input data mahasiswa
         System.out.print("Masukkan Nama: ");
         nama = input.nextLine();
         System.out.print("Masukkan Kelas: ");
