@@ -12,6 +12,11 @@ public class sistem_kompen_main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+       
+       System.out.println("█▀ █▀▀ █░░ ▄▀█ █▀▄▀█ ▄▀█ ▀█▀  █▀▄ ▄▀█ ▀█▀ ▄▀█ █▄░█ █▀▀  █▀▄ █  █▀ █ █▀ ▀█▀ █▀▀ █▀▄▀█  █▄▀ █▀█ █▀▄▀█ █▀█ █▀▀ █▄░█ ");
+       System.out.println("▄█ ██▄ █▄▄ █▀█ █░▀░█ █▀█ ░█░  █▄▀ █▀█ ░█░ █▀█ █░▀█ █▄█  █▄▀ █  ▄█ █ ▄█ ░█░ ██▄ █░▀░█  █░█ █▄█ █░▀░█ █▀▀ ██▄ █░▀█ ");
+
+
         // Deklarasi
         String nimMhs;
         String passMhs;
