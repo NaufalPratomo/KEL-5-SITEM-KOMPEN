@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class sitem_kompen_main {
-
+public class sistem_kompen_main {
+    
     // Clear the screen
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
@@ -10,7 +10,9 @@ public class sitem_kompen_main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+       
+       System.out.println("█▀ █▀▀ █░░ ▄▀█ █▀▄▀█ ▄▀█ ▀█▀  █▀▄ ▄▀█ ▀█▀ ▄▀█ █▄░█ █▀▀  █▀▄ █  █▀ █ █▀ ▀█▀ █▀▀ █▀▄▀█  █▄▀ █▀█ █▀▄▀█ █▀█ █▀▀ █▄░█ ");
+       System.out.println("▄█ ██▄ █▄▄ █▀█ █░▀░█ █▀█ ░█░  █▄▀ █▀█ ░█░ █▀█ █░▀█ █▄█  █▄▀ █  ▄█ █ ▄█ ░█░ ██▄ █░▀░█  █░█ █▄█ █░▀░█ █▀▀ ██▄ █░▀█ ");
         // Declaration
         String nimMhs;
         String passMhs;
