@@ -23,7 +23,7 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 - Pemilihan semester
 - Perhitungan kompen sesuai semester
 - Menu
-- setiap memasukkan nilai kompen, ditanya sudah dilakukan di semester brp (agar bisa di pastikan apakah kompen yang didapatkan sudah dikerjakan).(To do)
+- setiap memasukkan nilai kompen, ditanya sudah dilakukan di semester brp (agar bisa di pastikan apakah kompen yang didapatkan sudah dikerjakan)
 - list data pada kelas yang diinputkan 
 - menambahkan input kompen kedalam array 2D list kompen
 
