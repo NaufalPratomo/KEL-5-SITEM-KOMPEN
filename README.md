@@ -18,8 +18,8 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 
 ### Fitur
 - Sistem Login
-- Penginputan identitas
-- Pemilihan semester
+- Pemilihan login sebagai Admin atau Mahasiswa
+- Penginputan identitas (nama, kelas, semester)
 - Perhitungan kompen sesuai semester
 - list data pada kelas yang diinputkan 
 
