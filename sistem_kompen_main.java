@@ -112,7 +112,7 @@ public class sistem_kompen_main {
             pilihan = input.nextInt();
             input.nextLine(); // Mengonsumsi newline
 
-            System.out.print("Masukkan NIM: ");
+            System.out.print("Masukkan Username: ");
             nimMhs = input.nextLine();
             System.out.print("Masukkan Password: ");
             passMhs = input.nextLine();
@@ -145,7 +145,7 @@ public class sistem_kompen_main {
             }
 
             if (!loginSukses) {
-                System.out.println("NIM atau Password salah. Coba lagi.");
+                System.out.println("Username atau Password salah. Coba lagi.");
             }
         }
         clearScreen(); // Clear the screen
