@@ -6,13 +6,13 @@ public class sistem_kompen_main {
     // Clear the screen
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
-        System.out.flush();
+        System.out.flush(); 
     }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Deklarasi
+        // Declaration
         String nimMhs;
         String passMhs;
         String nama, kelas;
