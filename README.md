@@ -17,14 +17,11 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 ---
 
 ### Fitur
-- Sistem Registrasi
-- Penginputan nama
-- Penginputan kelas
-- Pemilihan semester
+- Sistem Login
+- Pemilihan login sebagai Admin atau Mahasiswa
+- Penginputan identitas (nama, kelas, semester)
 - Perhitungan kompen sesuai semester
-- Menu (On Progress)
-- setiap memasukkan nilai kompen, ditanya sudah dilakukan di semester brp (agar bisa di pastikan apakah kompen yang didapatkan sudah dikerjakan).(To do)
-
+- list data pada kelas yang diinputkan 
 
 
 ---
