@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sistem_kompen_main {
+public class coba {
     static Scanner input = new Scanner(System.in);
 
     // Deklarasi
