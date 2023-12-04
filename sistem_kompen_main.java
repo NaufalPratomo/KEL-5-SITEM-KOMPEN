@@ -126,7 +126,6 @@ public class sistem_kompen_main {
         System.out.println("");
 
         // login
-        System.out.println("===== Sistem Kompen Mahasiswa =====\n");
         boolean loginSukses = false;
         int pilihan = 0;
         while (!loginSukses) {
