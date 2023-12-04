@@ -227,8 +227,8 @@ public class sistem_kompen_main {
                         // Input kompen sesuai semester
                         int kompenSemester = 0;
                         for (int i = 1; i <= simpanSemester; i++) {
-                            System.out.println("Anda memilih semester " + i + ".");
-                            System.out.print("Masukkan Kompen Semester (jam) " + i + ": ");
+                            System.out.println(" semester " + i );
+                            System.out.print("Masukkan alpha pada Semester ini (jam) " + i + ": ");
                             int kompen = input.nextInt();
                             input.nextLine();
                             // memanggil fungsi untuk menanyakan apakah kompen sudah dikerjakan
