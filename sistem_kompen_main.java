@@ -120,9 +120,10 @@ public class sistem_kompen_main {
         };
 
         // Dekorasi
-        System.out.println("╔════════════════════════════════════════════╗");
-        System.out.println("║          Sistem Kompen Mahasiswa           ║");
-        System.out.println("╚════════════════════════════════════════════╝");
+        System.out.println("█▀ █ █▀ ▀█▀ █▀▀ █▀▄▀█  █▄▀ █▀█ █▀▄▀█ █▀█ █▀▀ █▄░█  █▀▄▀█ ▄▀█ █░█ ▄▀█ █▀ █ █▀ █░█░█ ▄▀█");
+        System.out.println("▄█ █ ▄█ ░█░ ██▄ █░▀░█  █░█ █▄█ █░▀░█ █▀▀ ██▄ █░▀█  █░▀░█ █▀█ █▀█ █▀█ ▄█ █ ▄█ ▀▄▀▄▀ █▀█");
+        System.out.println("");
+        System.out.println("");
 
         // login
         System.out.println("===== Sistem Kompen Mahasiswa =====\n");
