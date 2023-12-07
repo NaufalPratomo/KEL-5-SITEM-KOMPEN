@@ -25,6 +25,7 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 - Perhitungan kompen sesuai semester
 - Adanya peringatan bila komoen melebihi batas tertentu
 - List data kompen (adanya perbedaan fitur antara mahasiswa dan admin pada fitur ini)
+- Dapat melihat data kompen bila nama sudah terdapat didalam array
 
 
 
