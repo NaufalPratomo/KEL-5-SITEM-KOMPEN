@@ -20,8 +20,12 @@ Berisi mengenai Sistem Informasi, yaitu Perhitungan Kompen Mahasiswa.
 - Sistem Login
 - Pemilihan login sebagai Admin atau Mahasiswa
 - Penginputan identitas (nama, kelas, semester)
+- Menu(adanya perbedaan menu antara admin dah mahasiswa)
+- Penginputan kompen (khusus login admin)
 - Perhitungan kompen sesuai semester
-- list data pada kelas yang diinputkan 
+- Adanya peringatan bila komoen melebihi batas tertentu
+- List data kompen (adanya perbedaan fitur antara mahasiswa dan admin pada fitur ini)
+
 
 
 ---
