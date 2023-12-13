@@ -9,7 +9,7 @@ public class sistem_kompen_main {
     static String nama, kelas;
     static int semester;
     static double poin_akhir = 0;
-    static int baris = 5, kolom = 9, kerja = 0;
+    static int baris = 5, kolom = 9, kerja = 0, duplicate;
 
     // Fungsi Clear the screen
     public static void clearScreen() {
@@ -52,44 +52,62 @@ public class sistem_kompen_main {
         return kompen;
     }
 
-    //Fungsi Headline menu Admin
-    public static void hlAdmin (){
-            System.out.println("╔════════════════════════════════════════════╗");
-            System.out.println("           Selamat datang Admin               ");
-            System.out.println("║          Silahkan Pilih Menu :             ║");
-            System.out.println("╚════════════════════════════════════════════╝");
+    // Fungsi Headline menu Admin
+    public static void hlAdmin() {
+        System.out.println("╔════════════════════════════════════════════╗");
+        System.out.println("           Selamat datang Admin               ");
+        System.out.println("║          Silahkan Pilih Menu :             ║");
+        System.out.println("╚════════════════════════════════════════════╝");
     }
 
-    //Fungsi Headline menu Mahasiswa
-    public static void hlMhs (){
-            System.out.println("╔════════════════════════════════════════════╗");
-            System.out.println("           Selamat datang " + nama + "            ");
-            System.out.println("║          Silahkan Pilih Menu :             ║");
-            System.out.println("╚════════════════════════════════════════════╝");
+    // Fungsi Headline menu Mahasiswa
+    public static void hlMhs() {
+        System.out.println("╔════════════════════════════════════════════╗");
+        System.out.println("           Selamat datang " + nama + "            ");
+        System.out.println("║          Silahkan Pilih Menu :             ║");
+        System.out.println("╚════════════════════════════════════════════╝");
     }
 
     public static void main(String[] args) {
 
-        System.out.println("  ███████╗███████╗██╗      █████╗ ███╗   ███╗ █████╗ ████████╗    ██████╗  █████╗ ████████╗ █████╗ ███╗   ██╗ ██████╗ ");  
-        System.out.println("  ██╔════╝██╔════╝██║     ██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝    ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗████╗  ██║██╔════╝ ");
-        System.out.println("  ███████╗█████╗  ██║     ███████║██╔████╔██║███████║   ██║       ██║  ██║███████║   ██║   ███████║██╔██╗ ██║██║  ███╗");
-        System.out.println("  ╚════██║██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██╔══██║   ██║       ██║  ██║██╔══██║   ██║   ██╔══██║██║╚██╗██║██║   ██║");
-        System.out.println("  ███████║███████╗███████╗██║  ██║██║ ╚═╝ ██║██║  ██║   ██║       ██████╔╝██║  ██║   ██║   ██║  ██║██║ ╚████║╚██████╔╝");
-        System.out.println("  ╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝       ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ");
+        System.out.println(
+                "  ███████╗███████╗██╗      █████╗ ███╗   ███╗ █████╗ ████████╗    ██████╗  █████╗ ████████╗ █████╗ ███╗   ██╗ ██████╗ ");
+        System.out.println(
+                "  ██╔════╝██╔════╝██║     ██╔══██╗████╗ ████║██╔══██╗╚══██╔══╝    ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗████╗  ██║██╔════╝ ");
+        System.out.println(
+                "  ███████╗█████╗  ██║     ███████║██╔████╔██║███████║   ██║       ██║  ██║███████║   ██║   ███████║██╔██╗ ██║██║  ███╗");
+        System.out.println(
+                "  ╚════██║██╔══╝  ██║     ██╔══██║██║╚██╔╝██║██╔══██║   ██║       ██║  ██║██╔══██║   ██║   ██╔══██║██║╚██╗██║██║   ██║");
+        System.out.println(
+                "  ███████║███████╗███████╗██║  ██║██║ ╚═╝ ██║██║  ██║   ██║       ██████╔╝██║  ██║   ██║   ██║  ██║██║ ╚████║╚██████╔╝");
+        System.out.println(
+                "  ╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝       ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ");
 
-        System.out.println("██████╗ ██╗    ███████╗██╗███████╗████████╗███████╗███╗   ███╗    ██╗  ██╗ ██████╗ ███╗   ███╗██████╗ ███████╗███╗   ██╗");
-        System.out.println("██╔══██╗██║    ██╔════╝██║██╔════╝╚══██╔══╝██╔════╝████╗ ████║    ██║ ██╔╝██╔═══██╗████╗ ████║██╔══██╗██╔════╝████╗  ██║");
-        System.out.println("██║  ██║██║    ███████╗██║███████╗   ██║   █████╗  ██╔████╔██║    █████╔╝ ██║   ██║██╔████╔██║██████╔╝█████╗  ██╔██╗ ██║");
-        System.out.println("██║  ██║██║    ╚════██║██║╚════██║   ██║   ██╔══╝  ██║╚██╔╝██║    ██╔═██╗ ██║   ██║██║╚██╔╝██║██╔═══╝ ██╔══╝  ██║╚██╗██║");
-        System.out.println("██████╔╝██║    ███████║██║███████║   ██║   ███████╗██║ ╚═╝ ██║    ██║  ██╗╚██████╔╝██║ ╚═╝ ██║██║     ███████╗██║ ╚████║");
-        System.out.println("╚═════╝ ╚═╝    ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝  ╚═══╝");
+        System.out.println(
+                "██████╗ ██╗    ███████╗██╗███████╗████████╗███████╗███╗   ███╗    ██╗  ██╗ ██████╗ ███╗   ███╗██████╗ ███████╗███╗   ██╗");
+        System.out.println(
+                "██╔══██╗██║    ██╔════╝██║██╔════╝╚══██╔══╝██╔════╝████╗ ████║    ██║ ██╔╝██╔═══██╗████╗ ████║██╔══██╗██╔════╝████╗  ██║");
+        System.out.println(
+                "██║  ██║██║    ███████╗██║███████╗   ██║   █████╗  ██╔████╔██║    █████╔╝ ██║   ██║██╔████╔██║██████╔╝█████╗  ██╔██╗ ██║");
+        System.out.println(
+                "██║  ██║██║    ╚════██║██║╚════██║   ██║   ██╔══╝  ██║╚██╔╝██║    ██╔═██╗ ██║   ██║██║╚██╔╝██║██╔═══╝ ██╔══╝  ██║╚██╗██║");
+        System.out.println(
+                "██████╔╝██║    ███████║██║███████║   ██║   ███████╗██║ ╚═╝ ██║    ██║  ██╗╚██████╔╝██║ ╚═╝ ██║██║     ███████╗██║ ╚████║");
+        System.out.println(
+                "╚═════╝ ╚═╝    ╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝  ╚═══╝");
 
-        System.out.println("                    ███╗   ███╗ █████╗ ██╗  ██╗ █████╗ ███████╗██╗███████╗██╗    ██╗ █████╗ ");
-        System.out.println("                    ████╗ ████║██╔══██╗██║  ██║██╔══██╗██╔════╝██║██╔════╝██║    ██║██╔══██╗");
-        System.out.println("                    ██╔████╔██║███████║███████║███████║███████╗██║███████╗██║ █╗ ██║███████║");
-        System.out.println("                    ██║╚██╔╝██║██╔══██║██╔══██║██╔══██║╚════██║██║╚════██║██║███╗██║██╔══██║");
-        System.out.println("                    ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██║███████║██║███████║╚███╔███╔╝██║  ██║");
-        System.out.println("                    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝");
+        System.out.println(
+                "                    ███╗   ███╗ █████╗ ██╗  ██╗ █████╗ ███████╗██╗███████╗██╗    ██╗ █████╗ ");
+        System.out.println(
+                "                    ████╗ ████║██╔══██╗██║  ██║██╔══██╗██╔════╝██║██╔════╝██║    ██║██╔══██╗");
+        System.out.println(
+                "                    ██╔████╔██║███████║███████║███████║███████╗██║███████╗██║ █╗ ██║███████║");
+        System.out.println(
+                "                    ██║╚██╔╝██║██╔══██║██╔══██║██╔══██║╚════██║██║╚════██║██║███╗██║██╔══██║");
+        System.out.println(
+                "                    ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██║███████║██║███████║╚███╔███╔╝██║  ██║");
+        System.out.println(
+                "                    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝");
         System.out.println("");
         System.out.println("");
         System.out.println("");
@@ -105,17 +123,17 @@ public class sistem_kompen_main {
         };
 
         // Array untuk login data (NIM and password) for Admin
-        String[] loginDataAdmin = { 
-            "admin", "adminpass", 
-            "1", "1" 
+        String[] loginDataAdmin = {
+                "admin", "adminpass",
+                "1", "1"
         };
 
         // Array untuk login data (NIM and password) for Mahasiswa
-        String[] loginDataMhs = { 
-            "2341720075", "1", 
-            "2341720212", "1", 
-            "2341720218", "1", 
-            "2341720016", "1" 
+        String[] loginDataMhs = {
+                "2341720075", "1",
+                "2341720212", "1",
+                "2341720218", "1",
+                "2341720016", "1"
         };
 
         // Dekorasi
@@ -181,23 +199,34 @@ public class sistem_kompen_main {
         nama = input.nextLine();
         System.out.print("Masukkan Kelas: ");
         kelas = input.nextLine();
-        clearScreen(); // Clear the screen
-
-        // Fungsi untuk memasukkan input kompen kedalam array 2D list kompen
-        String[][] newMhs = new String[baris + 1][kolom];
-        for (int i = 0; i < kompenMhs.length; i++) {
-            for (int j = 0; j < kompenMhs[i].length; j++) {
-                newMhs[i][j] = kompenMhs[i][j];
+        for (int i = 1; i < kompenMhs.length; i++) {
+            if (kompenMhs[i][0].equalsIgnoreCase(nama)) {
+                duplicate = i;
+                break;
             }
         }
-        kompenMhs = newMhs;
-        kompenMhs[baris][0] = nama;
+        if (kompenMhs[duplicate][0].equalsIgnoreCase(nama)) {
+            System.out.println(" ");
+            ;
+        } else {
+            clearScreen(); // Clear the screen
+
+            // Fungsi untuk memasukkan input kompen kedalam array 2D list kompen
+            String[][] newMhs = new String[baris + 1][kolom];
+            for (int i = 0; i < kompenMhs.length; i++) {
+                for (int j = 0; j < kompenMhs[i].length; j++) {
+                    newMhs[i][j] = kompenMhs[i][j];
+                }
+            }
+            kompenMhs = newMhs;
+            kompenMhs[baris][0] = nama;
+        }
 
         // Menu Sistem Kompen
         boolean sistemKompen = true;
         int menu;
         do {
-            if (pilihan==1) {
+            if (pilihan == 1) {
                 hlAdmin();
             } else {
                 hlMhs();
@@ -205,7 +234,7 @@ public class sistem_kompen_main {
             System.out.println("0. Keluar Program");
 
             if (pilihan == 2) {
-                System.out.println("1. List Kompen Pada Kelas " + kelas);
+                System.out.println("1. List Kompen anda");
             } else if (pilihan == 1) {
                 System.out.println("1. Perhitungan Kompen Mahasiswa");
                 System.out.println("2. List Kompen Pada Kelas " + kelas);
@@ -221,8 +250,24 @@ public class sistem_kompen_main {
                     sistemKompen = false;
                     break;
                 case 1:
+                    if (pilihan == 2) {
+                        for (int i = 1; i < kompenMhs.length; i++) {
+                            if (kompenMhs[i][0].equalsIgnoreCase(nama)) {
+                                System.out.println(" +-------------------------------------+");
+                                for (int j = 0; j < kompenMhs[i].length; j++) {
+                                    if (kompenMhs[i][j] == null) {
+                                        System.out.print(" | " + " ");
+                                    } else {
+                                        System.out.print(" | " + kompenMhs[i][j]);
+                                    }
+                                }
+                            }
+                        }
+                        System.out.print(" | ");
+                        System.out.println("\n +-------------------------------------+\n");
+                    }
                     // Memanggil fungsi pilihSemester
-                    if (pilihan == 1) {
+                    else if (pilihan == 1) {
                         int simpanSemester = pilihSemester();
                         // Input kompen sesuai semester
                         int kompenSemester = 0;
@@ -243,21 +288,31 @@ public class sistem_kompen_main {
                         }
                         poin_akhir = kompenSemester;
                     }
-
+                    break;
                 case 2:
-                        // Cetak array 2D list kompen
-                        for (int i = 0; i < kompenMhs.length; i++) {
-                            for (int j = 0; j < kompenMhs[i].length; j++) {
-                                if (kompenMhs[i][j] == null) {
-                                    kompenMhs[i][j] = "";
-                                }
-                                System.out.print(kompenMhs[i][j] + "\t");
+                    // Cetak array 2D list kompen
+                    for (int i = 0; i < kompenMhs.length; i++) {
+                        for (int j = 0; j < kompenMhs[i].length; j++) {
+                            if (kompenMhs[i][j] == null) {
+                                kompenMhs[i][j] = "";
                             }
-                            System.out.println();
+                            System.out.print(kompenMhs[i][j] + "\t");
                         }
-                        // Hasil akhir
-                        System.out.println(nama + " kelas " + kelas + " semester " + semester
-                                + " memiliki nilai kompen akhir " + poin_akhir);
+                        System.out.println();
+                    }
+                    // Hasil akhir
+                    System.out.println(nama + " kelas " + kelas + " semester " + semester
+                            + " memiliki nilai kompen akhir " + poin_akhir);
+
+                    if (poin_akhir > 112) {
+                        System.out.println("Anda PS (Putus Studi) !!!!!!!");
+                    } else if (poin_akhir > 94) {
+                        System.out.println("Anda mendapatkan SP 3 !!!");
+                    } else if (poin_akhir > 72) {
+                        System.out.println("Anda mendapatkan SP 2 !!");
+                    } else if (poin_akhir > 36) {
+                        System.out.println("Anda mendapatkan SP 1 !");
+                    }
                     break;
 
                 default:
